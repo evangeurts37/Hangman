@@ -16,5 +16,37 @@ namespace Hangman
         {
             InitializeComponent();
         }
+
+        string Word;
+        string displayWord;
+        int GeussesNum;
+
+
+
+
+
+
+        private void frmHangman_Load(object sender, EventArgs e)
+        {
+
+            Word = Word + "COMPUTER";
+            GeussesNum = 0;
+            lblWord.Text = "_ _ _ _ _ _ _ _";
+        }
+
+        private void btnGeuss_Click(object sender, EventArgs e)
+        {
+
+
+
+
+
+
+
+
+
+
+
+        }
     }
 }
