@@ -19,8 +19,9 @@ namespace Hangman
 
         Random generator = new Random();
 
-        string[] Words = { "COMPUTER", "APPLE", "WINDOW", "HORSE", "MOVIE", };
-        string displayWord = "_ _ _ _ _ _ _ _ ";
+        string[] Words = { "COMPUTER", "APPLE", "WINDOW", "HORSE", "MOVIE", "lions", "BRAIN","YELLOW","ANIMALS","GORILLA","TEMPLE","GIANT","WALL","URETHRA","ANTIDISARTHERUM" };
+        string displayWord = "_ _ _ _ _ _ _ _";
+
         int Lives;
         int random;
         string entered;
@@ -33,36 +34,37 @@ namespace Hangman
         private void frmHangman_Load(object sender, EventArgs e)
         {
             random = generator.Next(0, 5);
-
+            
             Lives = 6;
-            lblWord.Text = displayWord;
+            
             secretWord = Words[0];
+            
             if (random == 0) 
             {
                 secretWord = Words[0];
-                lblWord.Text = "_ _ _ _ _ _ _ _";
+                displayWord = "_ _ _ _ _ _ _ _";
             }
 
             else if (random == 1) 
             {
                 secretWord = Words[1];
-                lblWord.Text = "_ _ _ _ _";
+                displayWord = "_ _ _ _ _";
             }
 
             else if (random == 2)
             {
                 secretWord = Words[2];
-                lblWord.Text = "_ _ _ _ _ _";
+                displayWord = "_ _ _ _ _ _";
             }
             else if (random  ==3)
             {
                 secretWord = Words[3];
-                lblWord.Text = "_ _ _ _ _";
+                displayWord = "_ _ _ _ _";
             }
             else if (random == 4)
             {
                 secretWord = Words[4];
-                lblWord.Text = "_ _ _ _ _";
+                displayWord = "_ _ _ _ _";
             }
 
             
