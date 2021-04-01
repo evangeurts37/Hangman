@@ -34,31 +34,33 @@
             this.btnGeuss = new System.Windows.Forms.Button();
             this.imgHangingMan = new System.Windows.Forms.PictureBox();
             this.txtGeuss = new System.Windows.Forms.TextBox();
-            this.lstGeussed = new System.Windows.Forms.ListBox();
             this.lblInstruction2 = new System.Windows.Forms.Label();
             this.btnInstructions = new System.Windows.Forms.Button();
             this.lblLives = new System.Windows.Forms.Label();
-            this.lblResult = new System.Windows.Forms.Label();
             this.lblLivesWord = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblResult = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lstGuessed = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.imgHangingMan)).BeginInit();
             this.SuspendLayout();
             // 
             // lblInstruction
             // 
             this.lblInstruction.AutoSize = true;
-            this.lblInstruction.Location = new System.Drawing.Point(95, 43);
+            this.lblInstruction.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstruction.Location = new System.Drawing.Point(8, 36);
             this.lblInstruction.Name = "lblInstruction";
-            this.lblInstruction.Size = new System.Drawing.Size(252, 13);
+            this.lblInstruction.Size = new System.Drawing.Size(406, 18);
             this.lblInstruction.TabIndex = 0;
             this.lblInstruction.Text = "Geuss Letters to fill in the blanks befor the man dies.";
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Location = new System.Drawing.Point(86, 13);
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(8, 9);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(53, 13);
+            this.lblTitle.Size = new System.Drawing.Size(79, 18);
             this.lblTitle.TabIndex = 1;
             this.lblTitle.Text = "Hangman";
             // 
@@ -66,15 +68,15 @@
             // 
             this.lblWord.AutoSize = true;
             this.lblWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWord.Location = new System.Drawing.Point(93, 327);
+            this.lblWord.Location = new System.Drawing.Point(91, 311);
             this.lblWord.Name = "lblWord";
-            this.lblWord.Size = new System.Drawing.Size(150, 25);
+            this.lblWord.Size = new System.Drawing.Size(132, 25);
             this.lblWord.TabIndex = 2;
-            this.lblWord.Text = "_ _ _ _ _ _ _ _";
+            this.lblWord.Text = "_ _ _ _ _ _ _";
             // 
             // btnGeuss
             // 
-            this.btnGeuss.Location = new System.Drawing.Point(521, 357);
+            this.btnGeuss.Location = new System.Drawing.Point(390, 244);
             this.btnGeuss.Name = "btnGeuss";
             this.btnGeuss.Size = new System.Drawing.Size(75, 23);
             this.btnGeuss.TabIndex = 3;
@@ -85,7 +87,7 @@
             // imgHangingMan
             // 
             this.imgHangingMan.Image = global::Hangman.Properties.Resources.Start;
-            this.imgHangingMan.Location = new System.Drawing.Point(113, 82);
+            this.imgHangingMan.Location = new System.Drawing.Point(79, 82);
             this.imgHangingMan.Name = "imgHangingMan";
             this.imgHangingMan.Size = new System.Drawing.Size(161, 216);
             this.imgHangingMan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -94,31 +96,25 @@
             // 
             // txtGeuss
             // 
-            this.txtGeuss.Location = new System.Drawing.Point(403, 359);
+            this.txtGeuss.Location = new System.Drawing.Point(264, 246);
+            this.txtGeuss.MaxLength = 1;
             this.txtGeuss.Name = "txtGeuss";
             this.txtGeuss.Size = new System.Drawing.Size(100, 20);
             this.txtGeuss.TabIndex = 5;
             // 
-            // lstGeussed
-            // 
-            this.lstGeussed.FormattingEnabled = true;
-            this.lstGeussed.Location = new System.Drawing.Point(438, 203);
-            this.lstGeussed.Name = "lstGeussed";
-            this.lstGeussed.Size = new System.Drawing.Size(120, 95);
-            this.lstGeussed.TabIndex = 6;
-            // 
             // lblInstruction2
             // 
             this.lblInstruction2.AutoSize = true;
-            this.lblInstruction2.Location = new System.Drawing.Point(456, 178);
+            this.lblInstruction2.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstruction2.Location = new System.Drawing.Point(260, 108);
             this.lblInstruction2.Name = "lblInstruction2";
-            this.lblInstruction2.Size = new System.Drawing.Size(84, 13);
+            this.lblInstruction2.Size = new System.Drawing.Size(127, 19);
             this.lblInstruction2.TabIndex = 7;
             this.lblInstruction2.Text = "Geussed Letters";
             // 
             // btnInstructions
             // 
-            this.btnInstructions.Location = new System.Drawing.Point(482, 13);
+            this.btnInstructions.Location = new System.Drawing.Point(409, 4);
             this.btnInstructions.Name = "btnInstructions";
             this.btnInstructions.Size = new System.Drawing.Size(75, 23);
             this.btnInstructions.TabIndex = 8;
@@ -129,50 +125,61 @@
             // lblLives
             // 
             this.lblLives.AutoSize = true;
-            this.lblLives.Location = new System.Drawing.Point(70, 104);
+            this.lblLives.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLives.Location = new System.Drawing.Point(52, 91);
             this.lblLives.Name = "lblLives";
-            this.lblLives.Size = new System.Drawing.Size(13, 13);
+            this.lblLives.Size = new System.Drawing.Size(19, 21);
             this.lblLives.TabIndex = 9;
             this.lblLives.Text = "6";
-            // 
-            // lblResult
-            // 
-            this.lblResult.AutoSize = true;
-            this.lblResult.Location = new System.Drawing.Point(152, 386);
-            this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(0, 13);
-            this.lblResult.TabIndex = 10;
             // 
             // lblLivesWord
             // 
             this.lblLivesWord.AutoSize = true;
-            this.lblLivesWord.Location = new System.Drawing.Point(38, 104);
+            this.lblLivesWord.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLivesWord.Location = new System.Drawing.Point(6, 91);
             this.lblLivesWord.Name = "lblLivesWord";
-            this.lblLivesWord.Size = new System.Drawing.Size(35, 13);
+            this.lblLivesWord.Size = new System.Drawing.Size(52, 21);
             this.lblLivesWord.TabIndex = 11;
             this.lblLivesWord.Text = "Lives:";
             // 
-            // label1
+            // lblResult
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(111, 386);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "label1";
+            this.lblResult.AutoSize = true;
+            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResult.Location = new System.Drawing.Point(386, 244);
+            this.lblResult.Name = "lblResult";
+            this.lblResult.Size = new System.Drawing.Size(0, 24);
+            this.lblResult.TabIndex = 12;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(440, 91);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.TabIndex = 14;
+            // 
+            // lstGuessed
+            // 
+            this.lstGuessed.FormattingEnabled = true;
+            this.lstGuessed.Location = new System.Drawing.Point(264, 130);
+            this.lstGuessed.Name = "lstGuessed";
+            this.lstGuessed.Size = new System.Drawing.Size(120, 95);
+            this.lstGuessed.TabIndex = 15;
             // 
             // frmHangman
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblLivesWord);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.ClientSize = new System.Drawing.Size(484, 360);
+            this.Controls.Add(this.lstGuessed);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.lblResult);
+            this.Controls.Add(this.lblLivesWord);
             this.Controls.Add(this.lblLives);
             this.Controls.Add(this.btnInstructions);
             this.Controls.Add(this.lblInstruction2);
-            this.Controls.Add(this.lstGeussed);
             this.Controls.Add(this.txtGeuss);
             this.Controls.Add(this.imgHangingMan);
             this.Controls.Add(this.btnGeuss);
@@ -196,13 +203,13 @@
         private System.Windows.Forms.Button btnGeuss;
         private System.Windows.Forms.PictureBox imgHangingMan;
         private System.Windows.Forms.TextBox txtGeuss;
-        private System.Windows.Forms.ListBox lstGeussed;
         private System.Windows.Forms.Label lblInstruction2;
         private System.Windows.Forms.Button btnInstructions;
         private System.Windows.Forms.Label lblLives;
-        private System.Windows.Forms.Label lblResult;
         private System.Windows.Forms.Label lblLivesWord;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblResult;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ListBox lstGuessed;
     }
 }
 

@@ -23,5 +23,10 @@ namespace Hangman
             frmHangman f2 = new frmHangman();
             f2.ShowDialog();
         }
+
+        private void lblText_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -117,4 +117,77 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAWwAAACKCAMAAAC5K4CgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAFlUExURf////3TnLtMOv3Sm7pIN/3SmcVtVLhAKv//0dOIaOO/u69vWbStjf//yf9/WJuTi7lF
+        Mf3Pk35tYP3YoP//y9SRhtSRef7z5f3Ypv3dtLY9L/jw8OLf3fj5+f/7wY9SSv7kxIuBX5iPbqCYdquj
+        gt3St8uBd9urpf7r1NKafsqAanViU//89/3w3v7or/Tn5urr6v3arf//7MJlTOC4tt65nb2+tnhsRJub
+        jK2rl25kP7+5pJSNcWFZN6qljLu4q9HPyaqjknluUn1xVGFTNtbSxFxMN4aAZsa/oca+qbU0GdjBl+C/
+        jr2pgu65ieF6WuDSpIAxNqd8Z3kgK+vgzaWBc7dURLiXi+jLyMNjVuWle9LBm7yNbMdzZ+G1h+TRr7Y2
+        HJ1/XbuRW9mQa+bMuIdGQ9KLcseWU6eFXJCDeoZzYe2vVXJmYbOqpJpwX/GsmO24q+OEadtnQP9uPf96
+        T8qZd5xhU/sjQXUAAAvkSURBVHhe7ZyLQ9s2GsAdgskVTBuSUpIQ0zxsQmmAMAptB4XQNcOhGdx2HKPl
+        3R190u12u/bvv0+y/IwtO77VTTT9Rodl+4dlWf70sBPBj7XKwyZZDA13ojnCo+rDhkyWw8KdaI78GCSy
+        HBbuRHME+VHlW7IYGu5Ec4TG40pZFuSebgjuRHMEYb2yAUZvEneiOfJm5UmxN4U7QBQHSeWHWyQREu5E
+        c0Cqlh9ukERIuBPNKW4p1Wr5SbPZ3H7ykawLgjvRnOZOpaJUnj59+t2z78rbZGUA3InmCK0qUHn2/c7G
+        tzvlkBGIO9EcoVWGS1R+9v3Tp4+KYdtW7kRzYMypSEoVvM2QBncQURxB1iSEUqn0cCDuRHIEeR0pSlUp
+        r5E1wXAnmiM0NiW4HeACVcJPzXInmiM04QLBJZKUnSJZEwx3ojlCEd8OlXK5B4k70RyhKOFIr1Q2ejgQ
+        dyI5jaKmaaAo1Z3QDx24E80Ba1PSUHexUu3hCnEnkiPAFdItJfwV4k40R2hJGnbKG+El5FQ3uFPtsdzk
+        LbgdJDSnUg3dX5S3lOe5ZDLZ6fzQIqsCYdHpdBKJXhxB2IJAD5EeCjvsFZoqJbIJHTFbmiJr6TDsJHIh
+        HaChF3Xo26FeSojkKAgxka+TLf6w52QdTjaEg2luQs2uVhVFCXU7TOXsh0GIYols84M7Bi0URSSI9Bth
+        YvZC13EAkX5hWXO6yxoIcAhoJASdxUplJ8Ts1dwE+dtOxBzlSNyxgMLGQVuRgmP2gsclxYjLvkdizZky
+        G0YXFMcEhRFAqaKXe+hMJcnf7UbMk33cMOf4lTXFsSiuV6tQs+G/wJqd96sIgOjT/eGOg4+bEnRFJOkR
+        SfsyRTkOhCyylxPmHLLZG2/HTnNda68rSjWwsGkXFXI3R3ZzwJpTojqJBbKbP22p3VKkwKfx1IoAmfOK
+        WMw5/hEb4+U4KLaVVktRAicK6RUB7iGPxpg1Zy6CY0d+rEmNlhQ8DeXdvbQQPe4h1pygC+Tl2IF+dkuQ
+        NaVN0r4EZs5jxMqaExBFPB07a5oGEaStSAEDyKA7yCvIseYIQU5Q0G5r69DBbmjSNv3zCkF3UCLZ3fFh
+        zakHOQGdv6IGUQSAMfsadVQTmLmESPa0YM0J6MAA3Y6dZlvDZVyEqv3/1eyE2NUUs+b4zqWYdDs20IgG
+        l7Hc0qqUl4ynSjny55LJhGNKAdKEZC7vGK+y5tRNhwLtsc0j3DwiGqq0qS95UDencJNZwJY7lCSLiaSY
+        sx2JOWfZcPAFsS4KSRLN4Tgobmhml6+l+ndIzHsuuTgOLJoHwkkrs/YWnDXHGqmf3b36dHJ3zNgLJz+b
+        SbvjoEmaRwRUbb/HkHWjT5rMzozPwA/5w8nsuD0JWEMo5hwzhmR/uou4OtPrcnLsCqfPcAqwHAdyW9PI
+        IgDdP59hpNknhYrw9x9/uj1Drj1kbuYfP94etzJnNRCsOXUzumQ/4cL9bJQuSXbMHUzHQQOaR7IINFRN
+        8e6QWDVhcXzmV5Q5knRnLulVe9hwhDxZB3xGpfuJSNkzlDLqOWBzbMhbtigCQPfP5wm71Z4sjt++bcU4
+        uAshad129nlJ1pwFsi6R0MOIUbM7OGWFEbtjo7ipte1RWla1dZ+qnRNFPX/JxZkZM29QFaBFWSTXVBQn
+        7FMDrDlCaQIr2TNcse9eneD9smdXd68+wz+9prscCxjQOGvygeo707qcz+stBGTMzBssWslcPu+6pqw5
+        C6X8MpRu4gQC9IlZlZMnnz8loDeC4kguX/Kb92tqkrNs66pfHEHQn1J4zy6y5tTxtjPoVJ+ZvQ98ddAq
+        2pOaYltzDWOgiaQUNn1mwHsKhjXH7KFbQx8dnPRxEM2W5hrFyC3V1hXsglYVJnwuKmsO7Ymv982g02i7
+        oggeRVKe2FBmGH2HTaw5lCvk7wAtTZ/ws1FUNdrjMav344Ly7hVrTn3Z1p46oL4RVVTdb5zJW/TCtvqn
+        Lib8Jl8A1pwpvRfTDcVBY5iuz95AzPbr++nk7f0kQlKkH4c158DrEonLVAeFkZarah+oXWHcSfN4GX24
+        wU5uuXNAtnrDnKN1OdkgBzp6bfLkwKChdkUWF8g5Rj1/i3COowZ1Bt7RHLEk2IGqve3qV7dU9TH12Zju
+        PBcnYLSLmJhIaOEce1VIHg++c0z2R4RxhOZm2977k7fVoJBtOqVlRKkHx3ZGm6ra/qs5wtr6uqatG7s1
+        oF5ra0EXKKLT1qQO3KzwI3bOwQl8JYg1RyhuQfDRJGgl5UaxqQLbgS+hRXL+eXgMzjFUhs5zuOVU9Yef
+        p8k2P1hz0PBcW4ddNfUx+qVqmx/JBgo9O0ejL9KFl8dt7MD/4Xdur7A7O0q2e8Gag5Fbj6GBI2gtOahJ
+        RfToPEinhoeGhk6eE0NVj7N7sCZ9ceqbPdYcQgPGjKoGPxDjD4JiL6EXZymVgpwBhZdnuePjc+35cmfv
+        ZQGvSu/WlshuDlhzLORiW0JB+KAVsqiB8E7tENUCTGHlxl4228nu3VjR8wakXniEOtYcF41GM3xJE8I4
+        8im+4wyGC4hhx6rdJddfYc2JjVNyy9FIHZGdCaw5cVELkbeh4ZQjzrHmxMWSFd9opE/J/gjWnNgwKkJa
+        /9VFmmxI23pMrDlxsbSrH/uiNumZvfRk7QIvDL8w2xTWnNg41bOUrgmjpEo4SY0adWXXbFO+rHMRuxMb
+        tRcXcOz0pOCfOQHVkdTFaY0o0ZyhAsTSYGe4sHKHKLE58bG0VLtI70Lb7J+56d30RW3JNhCI4OT39n4p
+        QP82wCn8smd9IikuJ15mIW+UzAlLUFHc9Oag16az2fkgZx69VGO88hiX8zWgZM6X0A5+jUN/Y4Pm4JeE
+        jReA43K+Bl+0sPF77RN4kergJ+ITeiHE5XwNRi/SHlzQCzuko3/4Qv/04ejFsAfEmUJVTn8/LC7nq3A0
+        6Qm1g3T0+o4Hr7sc+7kd3fBEd+q5JCoutBiXMzB8M/43D8a/IZtNcIwkXxdEd/R39NBSXM7AMHq+MtLF
+        ynlXGNFrnF4IdMcqhLicgeHBeYrEQhuF1Qdkswl+XVrUP1VLdeb0PVGnLC5nYKidezT5wytdNRtODJ0b
+        rnM0h3weBn8fCFZicAYFecj7hO65HzvhMgCgEKgO+ZpJW8F9eWdQmN49Nx/sWQzPexe2iPu1dEcvBavg
+        YnAGhemR1TQuKwc+hU3OLMgxd43LGRSm793xeCziUdjo04xGYQc4InpXDO0alzMoTN+b9zqhw3vucXAd
+        Gi0yExHkLEAYWEYLcTmDgvcJDRVWzWlsg6m5OXKSgQ7sai7E4gwIR34nNE928KCfnb7m1HZCtjNLr86S
+        HTzoZ6evefF6xDiP9OGh2fgPj1DeE+hnp685JWcA5zMpCJPmIGJ4qGsMadLPTl9zes+oMWn0IAo9SNVT
+        3S2kST87/Yw8v0oGaelJ9BJGzTih1LnvCfWz09c8OFxN6c9mUrP4hEgqTTkh5OD5N8vByeE+cPqa0cl/
+        zRJq6IRGSWJ29mDSPYY0AEefWbYcPX369R0WyaNvQLR9NQJOBzwPjMthDjRvL9pGyvgrJgPm8eNymIMX
+        doy4CwGlgwsOcDjoU+J/vsMc6EUae9miR+L2QvFirgTYHVfaiygOe0xABSOLmBKkyVwd50+n7i7av1gX
+        gcPRKWLQ2MSi4bHODt7co8OBcsvcRzi+6oCs8/2qiSgOB1i7n8lcZzL3SRLT1Nfd8qumURwOsPrm8tWb
+        y+v7a+b30xTXbmWuX715+/at35dNRHE4gvzu/YcPHy7fv4EgQL4nVc5AHb28fPXhw6uMI1AYRHE4gjD9
+        LnMNvLqEAJDJ6OsaUG5QSy9hfcYZlnWiOBzg3fX+zfeozDB6BLhFUpnM2H7GqLo2ojgciAe/zt+8OTJG
+        yular5JGCm3bHyMrTaI4HOC3/ZuYfeD3kZH9f+O1v+/DIkC2/QevNInicIA/9LIx+O9veC1JGfzhHP1H
+        cTjQWx5zob+GQBImP9t7zlEcDvDxlgu9YSMJk3f2QWEUh8PhcDgcDofD4XA4HA6Hw+FwOBwOByMI/wOg
+        60Tu4gdh0wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="lblText2.Text" xml:space="preserve">
+    <value>The goal of hangman is to geuss the word before the mans entire body is drawn.
+ If the mans body is drawn fully before you geuss the word you lose. 
+You geuss 1 letter at a time. If the letter is in the word it will show up in the correct
+ position but if the letter is not in the word you lose a life and a peice of the body is drawn,.
+ If a word has 2 of the same letter and you geuss that letter both letters get filled in but if its
+ not in word you still only lose 1 life not 2.
+</value>
+  </data>
 </root>
